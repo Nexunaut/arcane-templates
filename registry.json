@@ -1,1 +1,30 @@
-
+{
+  "$schema": "https://github.com/getarcaneapp/arcane-templates/schema.json",
+  "name": "Nexunaut Templates",
+  "description": "Personal Docker templates",
+  "version": "1.0.0",
+  "author": "Danny",
+  "url": "https://github.com/Nexunaut/arcane-templates",
+  "templates": [
+    {
+      "id": "gluetun",
+      "name": "Gluetun VPN (Mullvad)",
+      "description": "Gluetun VPN container configured for Mullvad WireGuard",
+      "version": "1.0.0",
+      "author": "Danny",
+      "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/gluetun/docker-compose.yml",
+      "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/gluetun/.env.example",
+      "tags": ["vpn", "networking"]
+    },
+    {
+      "id": "pihole",
+      "name": "Pi-hole",
+      "description": "Network-wide DNS ad blocking",
+      "version": "1.0.0",
+      "author": "Danny",
+      "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/pihole/docker-compose.yml",
+      "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/pihole/.env.example",
+      "tags": ["dns", "networking"]
+    }
+  ]
+}
