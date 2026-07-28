@@ -35,6 +35,16 @@
     "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sabnzbd/docker-compose.yml",
     "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sabnzbd/.env.example",
     "tags": ["arr-stack", "downloads", "vpn"]
+  },
+  {
+    "id": "radarr",
+    "name": "Radarr",
+    "description": "Movie collection manager, works with SABnzbd + Prowlarr",
+    "version": "1.0.0",
+    "author": "Danny",
+    "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/radarr/docker-compose.yml",
+    "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/radarr/.env.example",
+    "tags": ["arr-stack", "movies"]
   }
   ]
 }
