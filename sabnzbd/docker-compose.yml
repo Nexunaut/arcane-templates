@@ -1,0 +1,14 @@
+services:
+  sabnzbd:
+    image: linuxserver/sabnzbd:latest
+    container_name: sabnzbd
+    network_mode: "container:gluetun"
+    environment:
+      - PUID=568
+      - PGID=568
+      - TZ=${TZ}
+    volumes:
+      - "/mnt/storage/sabnzbd:/config"
+      - "/mnt/storage/downloads:/downloads"
+      - "/mnt/storage/media:/media"
+    restart: unless-stopped
