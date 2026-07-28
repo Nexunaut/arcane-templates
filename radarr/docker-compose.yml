@@ -1,0 +1,15 @@
+services:
+  radarr:
+    image: linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=568
+      - PGID=568
+      - TZ=${TZ}
+    volumes:
+      - "/mnt/ssd/radarr:/config"
+      - "/mnt/storage/downloads:/downloads"
+      - "/mnt/storage/media:/media"
+    ports:
+      - "7878:7878"
+    restart: unless-stopped
