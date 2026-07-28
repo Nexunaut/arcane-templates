@@ -25,6 +25,16 @@
       "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/pihole/docker-compose.yml",
       "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/pihole/.env.example",
       "tags": ["dns", "networking"]
-    }
+    },
+    {
+    "id": "sabnzbd",
+    "name": "SABnzbd",
+    "description": "Usenet download client, tunneled through Gluetun",
+    "version": "1.0.0",
+    "author": "Danny",
+    "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sabnzbd/docker-compose.yml",
+    "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sabnzbd/.env.example",
+    "tags": ["arr-stack", "downloads", "vpn"]
+  }
   ]
 }
