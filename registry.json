@@ -65,6 +65,16 @@
     "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sonarr/docker-compose.yml",
     "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sonarr/.env.example",
     "tags": ["arr-stack", "tv"]
+  },
+  {
+    "id": "overseerr",
+    "name": "Overseerr",
+    "description": "Request management front-end for Radarr and Sonarr",
+    "version": "1.0.0",
+    "author": "Danny",
+    "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/overseerr/docker-compose.yml",
+    "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/overseerr/.env.example",
+    "tags": ["arr-stack", "requests"]
   }
   ]
 }
