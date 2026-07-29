@@ -45,6 +45,16 @@
     "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/radarr/docker-compose.yml",
     "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/radarr/.env.example",
     "tags": ["arr-stack", "movies"]
+  },
+  {
+    "id": "prowlarr",
+    "name": "Prowlarr",
+    "description": "Indexer manager for the *arr stack",
+    "version": "1.0.0",
+    "author": "Danny",
+    "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/prowlarr/docker-compose.yml",
+    "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/prowlarr/.env.example",
+    "tags": ["arr-stack", "indexer"]
   }
   ]
 }
