@@ -1,7 +1,8 @@
 services:
-  overseerr:
-    image: sctx/overseerr:latest
-    container_name: overseerr
+  seerr:
+    image: ghcr.io/seerr-team/seerr:latest
+    container_name: seerr
+    init: true
     environment:
       - LOG_LEVEL=info
       - TZ=${TZ}
