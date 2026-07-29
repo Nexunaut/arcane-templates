@@ -55,6 +55,16 @@
     "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/prowlarr/docker-compose.yml",
     "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/prowlarr/.env.example",
     "tags": ["arr-stack", "indexer"]
+  },
+  {
+    "id": "sonarr",
+    "name": "Sonarr",
+    "description": "TV series collection manager, works with SABnzbd + Prowlarr",
+    "version": "1.0.0",
+    "author": "Danny",
+    "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sonarr/docker-compose.yml",
+    "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/sonarr/.env.example",
+    "tags": ["arr-stack", "tv"]
   }
   ]
 }
