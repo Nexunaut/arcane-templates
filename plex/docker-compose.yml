@@ -1,0 +1,14 @@
+services:
+  plex:
+    image: linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=568
+      - PGID=568
+      - TZ=${TZ}
+      - VERSION=docker
+    volumes:
+      - "/mnt/ssd/plex:/config"
+      - "/mnt/storage/media:/media"
+    restart: unless-stopped
