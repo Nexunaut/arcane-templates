@@ -8,6 +8,7 @@ services:
       - PGID=568
       - TZ=${TZ}
       - VERSION=docker
+      - PLEX_CLAIM=${PLEX_CLAIM}
     volumes:
       - "/mnt/ssd/plex:/config"
       - "/mnt/storage/media:/media"
