@@ -11,4 +11,10 @@ services:
       - "/mnt/storage/sabnzbd:/config"
       - "/mnt/storage/downloads:/downloads"
       - "/mnt/storage/media:/media"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf --max-time 5 https://1.1.1.1 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
     restart: unless-stopped
