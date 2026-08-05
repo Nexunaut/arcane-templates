@@ -85,6 +85,16 @@
     "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/plex/docker-compose.yml",
     "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/plex/.env.example",
     "tags": ["media-server"]
+  },
+  {
+    "id": "scrypted",
+    "name": "Scrypted",
+    "description": "Camera/smart home platform with HomeKit support",
+    "version": "1.0.0",
+    "author": "Danny",
+    "compose_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/scrypted/docker-compose.yml",
+    "env_url": "https://raw.githubusercontent.com/Nexunaut/arcane-templates/main/scrypted/.env.example",
+    "tags": ["smart-home", "cameras"]
   }
   ]
 }
