@@ -1,0 +1,12 @@
+services:
+  scrypted:
+    container_name: scrypted
+    image: ghcr.io/koush/scrypted
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - PUID=568
+      - PGID=568
+      - TZ=${TZ}
+    volumes:
+      - "/mnt/ssd/scrypted:/server/volume"
